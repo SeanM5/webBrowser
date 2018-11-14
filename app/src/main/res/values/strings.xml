@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">webBrowser</string>
+    <string name="add">New tab</string>
+    <string name="url">url</string>
+    <string name="go">Go!</string>
+    <string name="hint">Address Bar</string>
+
+</resources>
