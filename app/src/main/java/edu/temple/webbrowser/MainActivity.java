@@ -31,15 +31,13 @@ public class MainActivity extends AppCompatActivity implements openPage {
 
 
         adapter = new MyAdapter(getSupportFragmentManager());
-//        if(url != null) {
-//            onOptionsItemSelected(){}
-//        }
+
         adapter.add();
 
 
         if (getIntent().getData() != null ) {
             url = getIntent().getData().toString();
-            Log.d("lol", url);
+            Log.d("url", url);
         }
 
         pager = findViewById(R.id.viewPager);
